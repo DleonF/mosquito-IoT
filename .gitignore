@@ -1,0 +1,33 @@
+# Arduino
+*.bin
+*.elf
+*.hex
+*.map
+*.eep
+*.lss
+*.sym
+*.tmp
+build/
+.build/
+
+# Credenciales locales
+esp32_mqtt_publisher/config.h
+secrets.h
+*.local
+
+# PlatformIO, si se usa
+.pio/
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs temporales
+*.log
+tmp/
+temp/
